@@ -1,0 +1,61 @@
+.home {
+    flex-grow: 1;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10vh;
+}
+.home .title{
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+}
+.home .title p {
+    line-height: 50px;
+}
+.home .title button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 999px;
+    background-color: #b7b7a4;
+    font-family: "Righteous", cursive;
+}
+.home .title button:hover {
+    background-color: #6b705c;
+}
+.home .person {
+    width: 100%;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+.home .person img {
+    width: 80%;
+    border-radius: 10%;
+}
+@media (max-width: 800px){
+    h1 {
+        font-size: 32px;
+    }
+   .home{
+       flex-direction: column;
+       justify-content: space-between;
+       margin-top: 5vh;
+   }
+   .home .title,
+   .home .person{
+       margin-top: 0;
+       text-align: center;
+       font-size: 25px;
+   }
+   .home .person img{
+       width: 100%;
+       margin-top: 3%;
+   }
+}

@@ -1,0 +1,17 @@
+.contact{
+    margin-top: 10vh;
+}
+h4{
+    margin-top: 10px;
+}
+iframe{
+    width: 70%;
+    height: 270px;
+    margin: auto;
+}
+@media (max-width: 800px){
+    iframe{
+        width:100%;
+        height: auto; 
+    }
+}
