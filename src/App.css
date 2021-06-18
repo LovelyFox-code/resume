@@ -1,12 +1,11 @@
 .App{
   text-align: center;
   display: flex;
-  max-width: 1280px;
-  padding: 0 15px;
+  max-width: 100%;
   min-height: 100vh;
   border-radius: 10px;
   flex-direction: column;
-  color: #6b705c;
+  color: #f8f9fa;
 
 }
 .footer {
@@ -15,7 +14,7 @@
 }
 .footer a {
   max-width: 60px;
-  color: #6b705c;
+  color: #f8f9fa;
 }
 .footer a:not(:last-child) {
   margin-right: 10px;
@@ -28,7 +27,6 @@
 }
 @media (min-width: 800px){
   .App{
-    padding: 0 100px;
     margin-top: 5vh;
     min-height: 90vh;
   }

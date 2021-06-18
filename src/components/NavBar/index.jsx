@@ -44,30 +44,28 @@ const NavBar = () => {
                     <ul style={{ left: open ? "0" : "-100vw"}}> 
                         
                         <li>
-                            <Link to="/">
+                            <a href="#home">
                                 Home
-                            </Link>
+                            </a>
                         </li>
 
                         <li>
-                            <Link to="/about">
+                            <a href="#about">
                                 About
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/skills">
+                            <a href="#skills">
                                 Skills
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/works">
+                            <a href="#works">
                                 Work
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/contact">
-                                Contact
-                            </Link>
+                        <a href="#contact" > Contact </a>
                         </li>
                     </ul>
                 </div>

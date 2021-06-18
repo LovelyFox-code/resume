@@ -2,11 +2,13 @@ import "./style.css"
 
 const About = () => {
     return (
-        <div className="about">
-           <h1>about me</h1>
+        <div id="about" className="about">
+           <div class="text">
+           <h1 class="header">about me</h1>
 <p>          
 Seeking a position of junior web developer in a friendly environment where my skills and potential can improve.
 Projects</p>
+
 <div className="block">
 <h3>Web Developer</h3>
 <h3>Shortcutz Amsterdam</h3>
@@ -32,38 +34,50 @@ If I launch it..</p>
 <h3>Website</h3>
 <h3>dec 2019 - mar 2020</h3>
 <h3>Website on CSS and HTML</h3>
-<p>(It was the first website I created - it is the same as the first web)</p> 
-<div className="block">
-    EDUCATION
-Online courses: Responsive Web Design, JS Algorithms and Data Structures
-aug 2020 - dec 2020
-Certificates</div>
-
-
-<div className="block">Codam college bootcamp
-jul 2020 - aug 2020
-Computer programming in C</div>
-
-<div className="block"></div>
-CS50's Introduction to Computer Science
-Jun 2019 - Jan 2020
-An introduction to the intellectual enterprises of computer science and the art of programming.
-<div className="block"></div>
-Fitness trainer course.
-2013 dec - 2014 mar
-Trainer certification.
-Pedagogical university,  Ukraine, Berdyansk HBO-bachelor 
-2012-2007
-Institute of Psychological education and arts. 
-All 5 years of education had scholarships.
-<div className="block"></div>
-EXPERIENCE
+<p>
 Volunteer project -web developer
-2019 - 2020
 Designing web pages and UI
 Collecting requirements from customer
 Building website with CSS, HTML and JS
 Zero cost infrastructure 
+</p>
+<p>(It was the first website I created - it is the same as the first web)</p> 
+<div className="block">
+  <h3>  EDUCATION</h3>
+  <h3>aug 2020 - dec 2020</h3>
+<h3>Online courses:</h3> 
+<p>Responsive Web Design, JS Algorithms and Data Structures
+</p>
+<p>Certificates</p>
+</div>
+
+
+<div className="block">
+    <h3>Codam college bootcamp</h3>
+<h3>jul 2020 - aug 2020</h3>
+<p>Computer programming in C</p>
+</div>
+
+<div className="block">
+<h3>CS50's Introduction to Computer Science</h3>
+<h3>Jun 2019 - Jan 2020</h3>
+<p>An introduction to the intellectual enterprises of computer science and the art of programming.</p>
+
+</div>
+<div className="block">
+<h3>Fitness trainer course.</h3>
+<h3>2013 dec - 2014 mar</h3>
+<p>Trainer certification.</p>
+</div>
+<div className="block">
+<h3>Pedagogical university, Ukraine, Berdyansk</h3>  
+<h3> HBO-bachelor </h3>
+<h3>2012-2007</h3>
+<p>Institute of Psychological education and arts. 
+All 5 years of education had scholarships.</p>
+</div>
+{/* <h1>EXPERIENCE</h1>
+
 <div className="block"></div>
 Dance group,  International -choreographer
 2018-2015 
@@ -84,7 +98,8 @@ Sold and signed 30+ long terms contracts.
 Helped clients to set up their goals and achieve them.
 Introduced new approaches in personal training.
 
-          
+           */}
+           </div>
         </div>
     )
 }

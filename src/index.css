@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(255, 232, 214, 0.733);
+  background-color: #343a40;
 }
 /* Hide scroll-bar for Chrome, Safari and Opera*/
 body::-webkit-scrollbar{
@@ -26,7 +26,7 @@ code {
 }
 .container {
   margin: 0 auto;
-  padding: 0 15px;
+  
   max-width: 1280;
 }
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');

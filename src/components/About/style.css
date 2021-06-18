@@ -3,6 +3,12 @@
     text-align: left;
     line-height: 23px;
     margin-top: 10vh;
+    background-color: #495057;
+}
+.text {
+    width: 80%;
+    margin: 10%;
+    text-align: center;
 }
 .about h1{
     margin-bottom: 20px;
@@ -12,4 +18,14 @@
 }
 .block{
     margin-top: 3%;
+}
+.header {
+    color: #fca311;
+}
+p{
+    font-size: 22px;
+}
+.block  {
+    width: 90%;
+    margin: auto;
 }

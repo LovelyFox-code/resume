@@ -10,29 +10,29 @@
     width: 100%;
     font-size: 18px;
     text-align: left;
+    margin-left: 10%;
 }
 .home .title p {
     line-height: 50px;
 }
 .home .title button {
-    border: none;
-    outline: none;
+    border: 2px solid #fca311;
     cursor: pointer;
     font-size: 24px;
     margin-top: 30px;
-    color: #ffffff;
+    color: #fca311;
     padding: 10px 15px;
-    border-radius: 999px;
-    background-color: #b7b7a4;
-    font-family: "Righteous", cursive;
+    background-color: rgb(52, 58, 64);
+    
 }
 .home .title button:hover {
-    background-color: #6b705c;
+    background-color: rgb(52, 58, 64);
+    color: white;
 }
 .home .person {
     width: 100%;
     margin-top: 20px;
-    opacity: 0.9;
+    
 }
 
 .home .person img {
