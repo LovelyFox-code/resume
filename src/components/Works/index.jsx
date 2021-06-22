@@ -10,7 +10,9 @@ const Works = () => {
       <div class="card-content">
         <h3 class="card-header">todo-app</h3>
         <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="https://todo-list-lac.vercel.app/">
         <button class="card-button">Read now</button>
+        </a>
       </div>
     </div>
     <div class="card">
@@ -21,7 +23,9 @@ const Works = () => {
                     alt="person picture"
                 /> */}
         <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <button class="card-button">Read now</button>
+       <a href="https://yanamaste.com/">
+       <button class="card-button">Read now</button>
+</a>
       </div>
     </div>
     <div class="card">
@@ -46,7 +50,9 @@ const Works = () => {
                     alt="person picture"
                 />
         <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="https://piano-lovelyfox-code.vercel.app/">
         <button class="card-button">Read now</button>
+        </a>
       </div>
     </div>
     <div class="card">
